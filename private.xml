@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<root>
+	<deviceproductdef>
+		<productname>SCULPT_MOBILE</productname>
+		<productid>0x07a5</productid>
+	</deviceproductdef>
+
+	<item>
+		<name>Windows Button to Mouse Button 4 (Microsoft Sculpt Mouse - Keyboard)</name>
+		<identifier>com.microsoft.mouse.sculpt_mobile.win_button</identifier>
+		<device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_MOBILE</device_only>
+		<autogen>
+			__KeyToKey__
+			KeyCode::OPTION_R,
+			KeyCode::VK_MOUSEKEY_BUTTON_BUTTON5
+		</autogen>
+	</item>
+	
+	<item>
+		<name>F1-F4 to Media Keys (Microsoft Sculpt Keyboard)</name>
+		<identifier>com.microsoft.key.sculpt_mobile.media</identifier>
+		<device_only>DeviceVendor::MICROSOFT,DeviceProduct::SCULPT_MOBILE</device_only>
+		<autogen>
+			__KeyToKey__
+			KeyCode::F1,
+			ConsumerKeyCode::MUSIC_PLAY
+		</autogen>
+		<autogen>
+			__KeyToKey__
+			KeyCode::F2,
+			ConsumerKeyCode::VOLUME_MUTE
+		</autogen>
+		<autogen>
+			__KeyToKey__
+			KeyCode::F3,
+			ConsumerKeyCode::VOLUME_DOWM
+		</autogen>
+		<autogen>
+			__KeyToKey__
+			KeyCode::F4,
+			ConsumerKeyCode::VOLUME_UP
+		</autogen>
+	</item>
+</root>
