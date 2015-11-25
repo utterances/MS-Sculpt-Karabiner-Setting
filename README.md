@@ -1,5 +1,5 @@
 # Microsoft Sculpt Mouse/Keyboard Karabiner-Setting for Mac
-Setting file for Microsoft Sculpt Series, you need to install Karabiner(https://pqrs.org/osx/karabiner/)
+Setting file for Microsoft Sculpt Series, you need to install Karabiner(https://pqrs.org/osx/karabiner/).
 Installation instruction: https://pqrs.org/osx/karabiner/document.html#privatexml
 
 ### Windows Button to Mouse Button 4 (Mouse)
