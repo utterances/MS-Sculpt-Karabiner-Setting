@@ -33,7 +33,7 @@
 		<autogen>
 			__KeyToKey__
 			KeyCode::F3,
-			ConsumerKeyCode::VOLUME_DOWM
+			ConsumerKeyCode::VOLUME_DOWN
 		</autogen>
 		<autogen>
 			__KeyToKey__
